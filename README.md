@@ -18,7 +18,7 @@ This JSON POST API endpoint enables clients to send data to a server for actions
 
 
 ## API
-Endpoints
+**Endpoints**
 
 
 Describe the
