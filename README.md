@@ -1,4 +1,3 @@
-"# api" 
 "# api"
 
 # API Name
@@ -9,11 +8,12 @@ JSON POST
  
 
 
+
+
 ## API
 Description
 
 This JSON POST API endpoint enables clients to send data to a server for actions like creating new records or updating existing ones. The data is transmitted in JSON format within the request body, making it easier to work with. The processing works, by the server responding with an HTTP status code and a JSON response containing relevant information. It can be used for various purposes, including user registration, data updates, or triggering custom processes, with authentication measures in place for secure access. 
-
 
 
 
@@ -24,19 +24,19 @@ Endpoints
 Describe the
 available endpoints, their functions, and the required parameters.
 
-http://127.0.0.1/api/public/postName
+**http://127.0.0.1/api/public/postName**
 - function: insert data into the database
 - parameteres: fname , lname
 
-http://127.0.0.1/api/public/postUpdate
+**http://127.0.0.1/api/public/postUpdate**
 - function: update the existing data in the database
 - parameters: id , lname, fname
 
-http://127.0.0.1/api/public/postPrint
+**http://127.0.0.1/api/public/postPrint**
 - function: It will display the data inside the database
 - parameters: none
 
-http://127.0.0.1/api/public/postDelete
+**http://127.0.0.1/api/public/postDelete**
 - function: It will delete data from the database
 - parameters: id
  
@@ -45,62 +45,62 @@ http://127.0.0.1/api/public/postDelete
 ## Request
 Payload
 
--JSON Payload postName:
+JSON Payload postName:
 
--Request payload:
-{
+**Request payload:**
+- {
   "lname":"hortizuela",
    "fname":"manny"
 }
 
  JSON Payload printName:
  
--Request payload:
+**Request payload:**
 
--JSON Payload updateName:
+JSON Payload updateName:
 
--Request payload:
-{
+**Request payload:**
+- {
   "id":1,
   "lname":"wick",
    "fname":"john"
 }
 
--JSON Payload deleteName:
+JSON Payload deleteName:
 
--Request payload:
-{
+**Request payload:**
+- {
   "id":1
 }
 
 ## Response
 JSON Payload postName:
 
- Response payload:
-{
+**Response payload:**
+- {
          "status":"success","data":null
 }
 
 JSON Payload printName:
 
-Response payload:
-{
+**Response payload:**
+- {
          "status":"success","data":["lname":"hortizuela","fname":"manny","lname":"licayan","fname":"arnold"]
 }
 
 
 JSON Payload updateName:
 
-Response payload:
-{
+**Response payload:**
+- {
          "status":"success","data":null
 }
 
 
 JSON Payload deleteName:
 
-Response payload:
-{
+**Response payload:**
+- {
          "status":"success","data":null
 }
 
@@ -186,5 +186,6 @@ information for inquiries or support.
 ALJEN R. LAGARTO
 - aljen.lagarto@student.dmmmsu.edu.ph
 - 0908 479 0138
-  
+
+
 
