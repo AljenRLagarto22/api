@@ -45,9 +45,9 @@ http://127.0.0.1/api/public/postDelete
 ## Request
 Payload
 
-JSON Payload postName:
+-JSON Payload postName:
 
-Request payload:
+-Request payload:
 {
   "lname":"hortizuela",
    "fname":"manny"
@@ -55,20 +55,20 @@ Request payload:
 
  JSON Payload printName:
  
-Request payload:
+-Request payload:
 
-JSON Payload updateName:
+-JSON Payload updateName:
 
-Request payload:
+-Request payload:
 {
   "id":1,
   "lname":"wick",
    "fname":"john"
 }
 
-JSON Payload deleteName:
+-JSON Payload deleteName:
 
-Request payload:
+-Request payload:
 {
   "id":1
 }
